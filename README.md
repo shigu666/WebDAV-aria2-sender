@@ -48,7 +48,7 @@ curl -X PROPFIND -o webdav_urls.xml -u username:passwd https://webdav.example.co
 ```
 然后传入到程序中，基础url就是`https://webdav.example.com/` ，不过写成`https://webdav.example.com/parentdir/subdir/` 也能用
 ```java
-java WebDAVParser <xml文件路径> <输出文件路径> <基础URL>
+java -jar WebDAVParser <xml文件路径> <输出文件路径> <基础URL>
 ```
 
 
