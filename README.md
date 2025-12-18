@@ -24,7 +24,7 @@
 -w https://dav.mypikpak.com/Pack%20From%20Shared/aaa/ \
 -u user \
 -p passwd \
--r http://locolhost:16800/jsonrpc \
+-r http://127.0.0.1:16800/jsonrpc \
 -t token \
 -d "E:/Downloads"
 ```
@@ -34,7 +34,7 @@
 -w https://dav.mypikpak.com/Pack%20From%20Shared/aaa/ \
 -u user \
 -p passwd \
--r http://locolhost:6800/jsonrpc \
+-r http://127.0.0.1:6800/jsonrpc \
 ```
 
 用法（WebDAV的xml解析器WebDAVParser.jar）：
