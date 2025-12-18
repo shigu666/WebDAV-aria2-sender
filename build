@@ -3,6 +3,6 @@ rm -rf output
 mkdir output
 cp ./src/* ./output/
 cd ./output/
-javac --release 17 WebDAVParser.java
+javac --release 17 -encoding utf8 WebDAVParser.java
 jar cfe WebDAVParser.jar WebDAVParser WebDAVParser.class
 rm WebDAVParser.class WebDAVParser.java
